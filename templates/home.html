@@ -1,0 +1,15 @@
+<h1>WORDCOUNT</h1>
+
+<h4>This is the word count website</h4>
+<br>
+{{ name }}
+<br>
+{{ d }}
+
+<form action="Count">
+  <textarea name='fulltextarea' rows="8" cols="80"></textarea>
+  <br>
+  <input type="submit"  value="Count" />
+  </form>
+
+<a href="{% url 'about_me' %}"><h3>About Me</h3></a>

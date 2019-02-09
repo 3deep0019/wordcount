@@ -1,0 +1,13 @@
+<h1>Counted</h1>
+
+<a href="{% url 'home' %}">Back to homepage</a>
+<br>
+{{ f }}
+<br>
+<br>
+The total words in the TEXT BOX is = {{ len }}
+<br>
+{% for i,j in w %}
+{{ i }} = {{ j }}
+<br>
+{% endfor %}
